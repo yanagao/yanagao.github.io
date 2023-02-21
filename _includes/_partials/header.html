@@ -39,7 +39,7 @@
 
   {% if site.menu %}
     <ul id="menu" class="menu">
-      {% for name_path in site.menu %}
+      <!-- {% for name_path in site.menu %}
         {% assign name = name_path[0] %}
         {% assign path = name_path[1] %}
         {% assign itemName = name | downcase %}
@@ -51,7 +51,7 @@
             {{ __.menu[name] }}
           </a>
         </li>
-      {% endfor %}
+      {% endfor %} -->
 
       {% if hasSearch %}
         <li class="menu-item menu-item-search">
